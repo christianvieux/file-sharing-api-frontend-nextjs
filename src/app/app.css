@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Custom Theme Setup with New Palette */
+@theme {
+  /* Breakpoints */
+  --breakpoint-nav: 760px;
+
+  /* Theme colors */
+  --color-primary: #143D60;
+  --color-primary-light: #2B5C85;
+  --color-primary-dark: #0D2A42;
+
+  --color-secondary: #A0C878;
+  --color-secondary-light: #B8DB99;
+  --color-secondary-dark: #7BA657;
+
+  --color-accent: #EB5B00;
+  --color-accent-light: #F27733;
+  --color-accent-dark: #C54C00;
+
+  --color-background: #DDEB9D;
+  --color-background-alt: #CDDA8A;
+
+  /* Status colors (customized or reused) */
+  --color-success: var(--color-secondary);
+  --color-warning: #F4A259;
+  --color-error: #D64550;
+  --color-info: #519ABA;
+
+  /* Neutrals */
+  --color-black: #1E1E1E;
+  --color-gray: #6C757D;
+  --color-light-gray: #D6D8DB;
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-sans: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  --font-serif: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+  /* Radii & shadows */
+  --rounded: 0.25rem;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Transitions */
+  --transition-base: all 0.2s ease-in-out;
+}
