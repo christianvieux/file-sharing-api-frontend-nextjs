@@ -86,7 +86,7 @@ export default function UploadPage() {
             <h2 className="text-lg font-medium mb-2">File Uploaded</h2>
 
             {/* Description */}
-            <p className="text-center mb-3">Here's the code to share:</p>
+            <p className="text-center mb-3">Here is the code to share:</p>
 
             {/* Code display */}
             <div className="bg-primary/10 rounded py-2 px-4 text-center mb-4">
