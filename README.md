@@ -65,3 +65,8 @@ npm start
 - Secure file downloading
 - Temporary file links
 - Modern, responsive UI
+
+## 📂 Related Repositories
+
+- [Main Project (Monorepo)](https://github.com/christianvieux/GA_Project_Final_File-Sharing-App)
+- [Backend API](https://github.com/christianvieux/file-sharing-api)
