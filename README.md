@@ -1,7 +1,7 @@
 # File Sharing Frontend
 The web interface for the file sharing application. Built with Next.js, this frontend provides a clean UI for uploading and downloading files.
 ## 🌐 Live App
-Visit the live application [here.](http://54.165.74.209:3006/home)
+Visit the live application [here.](http://44.215.35.137:3006/home)
 ## Tech Stack
 - **Next.js 15** - React framework
 - **TailwindCSS** - Styling
